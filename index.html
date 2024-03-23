@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kevin's Website</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/body.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Navbar Section -->
+<div id="navigationBar"></div>
+
+<section class="about-me">
+
+  <div class="text-container">
+    <h3>Hi, I'm Kevin Do</h3>
+    <div class="body-wrapper">
+
+      <div class="wrapper">
+        <div class="static-txt">I'm a <span class="dynamic-txt"></span></div>
+      </div>
+      <p>
+        I am a first-generation Capstone Scholar student
+        studying Computer Science
+        at the University of South Carolina - Columbia.
+        I'm orignally from Charlotte, NC and my passions
+        include: Coding, Cryptocurrency, Investing, Blockchain Technology and Business.
+      </p>
+      <button onclick="location.href='contact.html';">Contact Me</button>
+    </div>
+
+  </div>
+  <img src="img/IMG_2460-remove.png" alt="Photo of me" class="background-image">
+</section>
+
+<div class="divider-2">
+  <hr>
+</div>
+<!--
+<section class="body">
+  <h3>
+    About me:
+  </h3>
+</section>
+-->
+
+
+<script src="js/app.js"></script>
+<script src="https://kit.fontawesome.com/187b38a51e.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typed = new Typed(".dynamic-txt", {
+    strings: ["Software Developer", "Student", "Investor", "Entrepreneur"],
+    typeSpeed: 70,
+    backSpeed: 35,
+    loop: true,
+  });
+</script>
+</body>
+</html>
